@@ -1,0 +1,219 @@
+﻿* {
+    margin: unset;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    list-style:none;
+}
+.NavBar {
+    z-index:2;
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0px;
+}
+.MaxWidth {
+    width: 1000px;
+    margin:auto;
+    padding: 0 80px;
+}
+.NavBar .MaxWidth{
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+}
+.NavBar .logo a{
+    color:white;
+    font-weight:100;
+    font-size:40px;
+}
+.NavBar .liste{
+    padding:8px;
+}
+.NavBar .liste li {
+    display: inline-block;
+}
+.NavBar .liste li a{
+    color:white;
+    font-size:20px;
+    font-weight:500;
+    margin-left:25px;
+}
+.Contenue {
+    background-image: url("R.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+.Beatz {
+    color: #fff;
+    font-family: cursive;
+    font-size: 40PX;
+    margin: auto;
+    padding: 180PX 160PX;
+}
+.Boutton {
+    border: 2px solid red;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 35px;
+    font-weight:200;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 40px;
+    color: black;
+}
+.Bout{
+    border: 2px solid red;
+    padding:10px 40px;
+    border-radius: 15px;
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+}
+.Bout:hover{
+    background:none;
+}
+.Boutton:hover {
+        background: none;
+}
+.Descrip {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin: auto;
+        padding: 0 80px;
+    }
+img{
+    border-radius:20px;
+    object-fit:cover;
+}
+.text{
+    padding:80px;
+    font-size:20px;
+    text-align:center;
+    font-family:'Times New Roman';
+}
+.Propo {
+    display: flex;
+    margin: auto;
+    font-size: 40px;
+    color:red;
+    font-family:'Lucida Calligraphy';
+    margin-bottom:50px;
+    text-decoration:underline red;
+    text-align:center;
+}
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    padding: 20px 5px;
+}
+.foot {
+    color: black;
+    text-align: center;
+    width: 300px;
+    height:280px;
+    font-size:18px;
+    border-radius:15px;
+    border:solid 2px;
+    border-color:lightcoral;
+    padding: 10px 10px;  
+}
+.text a{
+    text-align:center;
+}
+.divx{
+    display:flex;
+    justify-content:space-around;
+    padding:0 80px;
+}
+.icone{
+    height:20px;
+}
+.teams {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    justify-content:space-evenly;
+}
+.team {
+    border-radius: 15px;
+    border: solid 2px;
+    border-color: lightcoral;
+    text-align: center;
+    width: 220px;
+    height: 250px;
+    font-size: 18px;
+    border-color: lightcoral;
+    padding: 10px 10px;
+}
+.team img{
+    border:solid 4px;
+    border-radius:60px;
+    border-color:red;
+}
+.contact {
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    align-content:center;
+}
+.cont {
+    color: black;
+    width: 350px;
+    height: 400px;
+    font-size: 20px;
+    border-color: lightcoral;
+    padding: 0 10px;
+}
+.put {
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family:'Lucida Calligraphy';
+}
+.but {
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    background-color: red;
+    color: black;
+    font-family: 'Lucida Calligraphy';
+}
+.fa-user{
+    color:red;
+
+}
+.fa-music{
+    color:red;
+    font-size:4em;
+}
+.fa-palette {
+    color: red;
+    font-size: 4em;
+}
+.fa-blog{
+        color: red;
+    font-size: 4em;
+}
+.fa-envelope {
+    color: red;
+}
+.fa-location-arrow {
+    color: red;
+}
